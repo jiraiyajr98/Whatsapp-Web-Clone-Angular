@@ -1,0 +1,15 @@
+
+<cdk-virtual-scroll-viewport itemSize="100" class="example-viewport">
+  <li #chatUserItem *cdkVirtualFor="let chat of chatList" class="example-item" (click)="chatItemClicked(chat)" >
+
+      <mat-card>
+          <mat-card-header>
+              <div mat-card-avatar class="header-image"></div>
+              <mat-card-title>{{chat.userName}}</mat-card-title>
+              <mat-card-subtitle>{{chat.userlastMessage}}</mat-card-subtitle>
+            </mat-card-header>
+      </mat-card>
+
+
+    </li>
+</cdk-virtual-scroll-viewport>

@@ -1,0 +1,20 @@
+.header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+
+cdk-virtual-scroll-viewport {
+  height: 100vh;
+  width: 33vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.example-item {
+
+  margin: 5%;
+
+}
